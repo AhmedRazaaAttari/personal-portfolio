@@ -1,0 +1,265 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+@font-face{
+    font-family:Agustina-Demo ;
+src: url(./assets/font/Agustina\ Demo.ttf);
+}
+.header ul li {
+    margin-left: 40px;
+}
+.fixed{
+    position: fixed;
+    margin-top: 50px;
+    background-color: #fff;
+    padding: 20px;
+}
+.header{
+    margin-top: 10px;
+
+}
+.header ul li a{
+    font-size: 20px;
+}
+.header .star2{
+color: #868e96;
+font-size: 30px;
+padding: 10px;
+}
+.ahmed{
+    color: #55198b;
+    font-family:Agustina-Demo ;
+font-size: 22px;
+}
+.banner{
+    margin-top: 80px;
+}
+.detail{
+    margin-top: 50px;
+}
+.detail h4 img {
+    width: 70px;
+}
+.detail h4 {
+    font-size: 50px;
+    font-weight: 500;
+}
+.detail ul li a img,.end ul li a img{
+    width: 2.6rem;
+}
+.header ul li:hover{
+    background-color: #cbd4dd3a;
+    transition: 0.4s;
+}
+.detail ul li,.end ul li{
+    list-style-type: none;
+}
+.detail ul,.end ul{
+    display: flex;
+    gap: 10px;
+}
+.detail2 img{
+    width: 100%;
+    height: 100%;
+}
+.detail p{
+    color: #868e96;
+    line-height: 40px;
+    font-size: 20px;
+}
+.lal ul li a {
+    font-size: 17px;
+    text-decoration: none;
+    border: 1px solid #55198b;
+    background-color: #55198b;
+    color: #fff;
+    padding: 12px 25px;
+    border-radius: 5px;
+    transition: 0.4s;
+}
+.lal ul li{
+    margin-top: 30px;
+    margin-right: 20px;
+    
+}
+.lal ul li a:hover{
+    background-color: #fff;
+    color: #55198b;
+    transition: 0.4s;
+}
+.lal ul li:hover{
+    transform: translateY(-10px);
+    transition: 0.4s;
+}
+.banner2{
+margin-top: 150px;
+}
+.book img{
+    width: 20px;
+}
+.water img{
+    width: 100%;
+    height: 100%;
+}
+.ok{
+    margin-top: 20px;
+}
+.blackicon{
+    display: flex;
+    gap: 20px;
+    color: #868e96;
+}
+.blackicon img{
+    width: 40px;
+    object-fit: contain;
+}
+
+.ok h4{
+    font-size: 40px;
+}
+.ok p,.lock{
+    color: #868e96;
+    font-size: 20px;
+}
+.meter {
+    background: #f3efef;
+    border-radius: 25px;
+    height: 20px;
+    position: relative;
+}
+.banner3,.banner4{
+    margin-top: 150px;
+}
+.banner3 h4{
+    font-size: 50px;
+}
+.banner3 p{
+    color: #181a1dd7;
+    font-size: 22px;
+    line-height: 5rem;
+}
+.meter span{
+    width: 70%;
+}
+.meter>span {
+    background-color: #aaa5ff;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 6px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 6px;
+    display: block;
+    height: 100%;
+    overflow: hidden;
+    position: relative;
+}
+.meter2 span{
+    width: 10%;
+}
+.meter3 span{
+    width: 40%;
+}
+.banner4 h4{
+    font-size: 50px;
+    line-height: 6rem;
+}
+.card {
+    border: 1px solid hsla(0,0%,83%,.397);
+    border-radius: 10px;
+    box-shadow: 0 10px 30px -15px #0003;
+    position: relative;
+    height: 100%;
+}
+
+.facebook,.quora,.airbub{
+    background: linear-gradient(#0006,#0003);
+    background:rgb(20, 124, 244) ;
+        align-items: flex-end;
+        border-radius: 10px 10px 0 0;
+        display: flex;
+        filter: blur(0);
+        height: 11rem;
+        justify-content: center;
+}
+.quora{
+    background: rgb(164, 36, 12);
+}
+.airbub{
+   background: rgb(252, 92, 100);
+}
+.facebook,.airbub,.quora{
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.facebook h5,.airbub h5,.quora h5{
+    font-size: 30px;
+
+}
+.facebook img,.quora img,.airbub img{
+    height: 6.5rem;
+    width: 6.5rem;
+}
+.fb,.qb,.ab{
+    border-radius: 50%;
+    box-shadow: 0 0.5rem 1rem #0000004d;
+    left: 0;
+    margin-left: auto;
+    margin-right: auto;
+    object-fit: cover;
+    position: absolute;
+    right: 0;
+    top: 7rem;
+}
+.card-body{
+    text-align: center;
+}
+.card-body .special{
+    margin-top: 50px;
+    font-size: 26px;
+    padding-top: 0.5rem
+}
+.card-text{
+    color: #868e96;
+    font-size: 20px;
+}
+.good li{
+    color: #868e96;
+    font-size: 20px;
+}
+.card:hover{
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+.footer{
+    margin-top: 150px;
+}
+.footer h4{
+    font-size: 50px;
+}
+.footer h6{
+    font-size: 30px;
+}
+.footer p{
+    line-height: 40px;
+    font-size: 22px;
+}
+.personal{
+    border: 0.5rem solid #6c63ff;
+    border-radius: 50%;
+    height: auto;
+    margin-left: auto;
+    max-width: 350px;
+    transition: all .3s ease-out;
+    width: 100%;
+}
+.last{
+    margin-top: 30px;
+    text-align: center;
+}
+.last p{
+    color: #868e96;
+}
+
